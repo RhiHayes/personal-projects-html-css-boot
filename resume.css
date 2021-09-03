@@ -1,0 +1,92 @@
+.fancy-header {
+    text-align: center;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 65px;
+    color: white;
+}
+
+.background-image {
+    background-image: url("https://i.kym-cdn.com/photos/images/newsfeed/000/970/154/2ef.gif");
+    background-size: cover;
+}
+
+.text {
+    font-family: 'JetBrains Mono', monospace;
+    color: black;
+    font-size: 20px;
+}
+
+.fancy-text {
+    font-family: 'Major Mono Display', monospace;
+    color: black;
+    font-size: 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+.caption {
+    text-align: center;
+    color: black;
+    padding: 0.5px;
+}
+
+.pad {
+    padding: 15px;
+    color: black;
+}
+
+table, th, td {
+    border: 7px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    color: blue;
+}
+
+.star-pixel {
+
+    background-image: url("https://media.istockphoto.com/vectors/pixel-art-star-sky-at-night-vector-id1219022871?k=20&m=1219022871&s=170667a&w=0&h=fC5EOoWrjoE8MfJGXCV_UXiFGkV4SM_vIz3IRpmpY5M=");
+    padding: 5px;
+    margin: 30px;
+
+}
+
+body {
+    text-align: center;
+}
+
+.subheading {
+
+    background-image: url("https://media.istockphoto.com/vectors/pixel-art-star-sky-at-night-vector-id1219022871?k=20&m=1219022871&s=170667a&w=0&h=fC5EOoWrjoE8MfJGXCV_UXiFGkV4SM_vIz3IRpmpY5M=");
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 300px;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+.subheading-2 {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 45px;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+
+.bold {
+    font-family: 'Major Mono Display', monospace;
+}

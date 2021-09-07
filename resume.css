@@ -84,7 +84,7 @@ body {
     margin-bottom: 40px;
     color: black;
     font-size: 30px;
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'JetBrains Mono', monospace;
 
 }
 
@@ -96,4 +96,8 @@ body {
 .tiny-pad {
     padding-top: 8px;
     color: black;
+}
+
+.nav-item {
+   padding: 5px;
 }

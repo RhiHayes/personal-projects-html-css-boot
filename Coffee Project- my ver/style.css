@@ -1,0 +1,75 @@
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.noId {
+    display: none;
+}
+
+/* RHIANNON STYLING */
+
+/* TITLE SECTION */
+
+.title-section {
+    background-color: #dbc1ac;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.fc-title {
+    color: #38220f;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Italianno', cursive;
+}
+
+.fc-caption {
+    color: #634832;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.coffee-togo {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.coffee-beans {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+/* ABOUT US SECTION */
+
+.about-us-section {
+    background-color: #ece0d1;
+    padding: 40px 20px;
+}
+
+.bio {
+    color: #38220f;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+}
+
+.cafe-photo {
+    width: 370px;
+    height: 470px;
+    margin-top: 20px;
+    border: solid 5px #38220f;
+}
+
+/*.lace {*/
+/*    background-image: url("https://lh3.googleusercontent.com/proxy/-yyjTMU5Bj7uj3q4rQPL7wnCAp09-O1eJUoZiinyxvUWI023ctsc-OafL6OsKEyX3naE9gmKpsDemEXMbapB0J-IDQ");*/
+/*    background-repeat: repeat-x;*/
+/*    backround-color: transparent;*/
+/*}*/

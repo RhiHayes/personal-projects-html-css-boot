@@ -1,8 +1,3 @@
-table {
-    border-collapse: collapse;
-    margin: 15px 0;
-}
-
 td, th{
     border: 1px solid black;
     padding: 5px 10px;
@@ -13,25 +8,70 @@ td, th{
 
 /* RHIANNON STYLING */
 
+/* NAVBAR SECTION */
+
+html  {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+.nav-text-brand {
+    color: black;
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+}
+
+.nav-text {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.nav-text:hover {
+    color: #38220f;
+}
+
+.nav-text-brand:hover {
+    color: black;
+}
+
+.navbar-section {
+    background-color: #967259;
+}
+
+.coffee-beans-mini {
+    width: 30px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.coffee-togo-mini {
+    width: 30px;
+    height: 20px;
+    padding-left: 5px;
+}
+
 /* TITLE SECTION */
 
 .title-section {
     background-color: #dbc1ac;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .fc-title {
     color: #38220f;
     text-align: center;
-    font-size: 70px;
+    font-size: 120px;
     font-family: 'Italianno', cursive;
 }
 
 .fc-caption {
     color: #634832;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -46,6 +86,25 @@ td, th{
     height: 80px;
     margin-left: 10px;
 }
+
+.button-container-top {
+    padding: 20px;
+    text-align: center;
+}
+
+.btn-light {
+    margin-top: 15px !important;
+    padding: 10px 15px !important;
+    background-color: #967259 !important;
+    color: black;
+    border: 2px solid black !important;
+}
+
+.btn-light:hover {
+    background-color: #38220f !important;
+    color: white !important;
+}
+
 
 /* ABOUT US SECTION */
 
@@ -62,10 +121,10 @@ td, th{
 }
 
 .cafe-photo {
-    width: 370px;
-    height: 470px;
+    width: 400px;
+    height: 370px;
     margin-top: 20px;
-    border: solid 5px #38220f;
+    border: solid 5px #634832;
 }
 
 .bean {
@@ -87,12 +146,12 @@ td, th{
     padding-top: 50px;
 }
 
-
 .cafe-photo-2 {
     width: 470px;
     height: 370px;
     margin-top: 20px;
-    border: solid 5px #38220f;
+    margin-right: 200px;
+    border: solid 5px #634832;
 }
 
 .bio-2 {
@@ -139,7 +198,7 @@ td, th{
     padding: 30px;
 }
 
-.card-title {
+.card-title-sub {
     text-align: center;
     font-size: 40px;
     font-family: 'Italianno', cursive;
@@ -154,4 +213,103 @@ td, th{
 
 .button-container {
     text-align: center;
+}
+
+/* COFFEE SECTION */
+
+.brews-title {
+    color: #38220f;
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Italianno', cursive;
+}
+
+.coffee-section {
+    background-color: #ece0d1;
+    padding: 40px 20px;
+}
+
+.card-body-custom {
+    background-color: #967259 !important;
+    color: black;
+    border: 5px solid #967259 !important;
+}
+
+.custom {
+    background-color: #38220f !important;
+    border: 2px solid black !important;
+    color: white !important;
+}
+
+.custom:active {
+    background-color: #38220f !important;
+    border: 2px solid black !important;
+    color: white !important;
+}
+
+.ice-cof {
+    width: 270px;
+    height: 270px;
+}
+
+/* SEARCH SECTION */
+
+.col-padding {
+
+}
+
+table {
+    border-collapse: collapse;
+    margin: 15px 0;
+    width: 100px;
+}
+
+/* BUILD A COFFEE SECTION */
+
+.build-coffee-section {
+    background-color: #ece0d1;
+    padding: 40px 20px;
+}
+
+.build-title {
+    color: #38220f;
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Italianno', cursive;
+}
+
+.cof-img {
+    width: 270px;
+    height: 270px;
+}
+
+.text {
+    color: #634832;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+}
+
+.btn-dark {
+    background-color: #38220f !important;
+    color: white !important;
+}
+
+.btn-dark:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* FOOTER SECTION */
+
+.footer-custom {
+    background-color: #dbc1ac;
+}
+
+.footer-text {
+    color: #38220f;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+
 }

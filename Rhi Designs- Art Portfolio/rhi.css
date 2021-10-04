@@ -53,7 +53,6 @@ html  {
 .title-section {
     background-color: #00002e;
     padding-top: 150px;
-    padding-bottom: 150px;
 }
 
 .title {
@@ -71,10 +70,10 @@ html  {
 }
 
 .title-image {
-    width: 300px;
-    height: 300px;
-    margin-top: -290px;
-    margin-left: -50px;
+    width: 700px;
+    height: 700px;
+    margin-top: -350px;
+    margin-left: -225px;
 }
 
 

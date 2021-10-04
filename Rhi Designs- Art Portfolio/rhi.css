@@ -22,11 +22,11 @@ html  {
 }
 
 .nav-text:hover {
-    color: #add1ff;
+    color: #73a9ff;
 }
 
 .nav-text-brand:hover {
-    color: #add1ff;
+    color: #73a9ff;
 }
 
 .navbar-section {
@@ -40,6 +40,7 @@ html  {
     color: #eedbff !important;
     border: none !important;
     font-family: 'Roboto Mono', monospace !important;
+    font-size: 15px !important;
 }
 
 .btn-light:hover {
@@ -63,7 +64,7 @@ html  {
 }
 
 .under-title {
-    color: #add1ff;
+    color: #73a9ff;
     padding-bottom: 80px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -72,7 +73,7 @@ html  {
 .title-image {
     width: 300px;
     height: 300px;
-    margin-top: -200px;
+    margin-top: -290px;
     margin-left: -50px;
 }
 
@@ -94,4 +95,89 @@ html  {
     padding: 10px 50px !important;
     background-color: #000098 !important;
     color: #add1ff !important;
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+    background-image: url("rhi-images/stars.png");
+    background-size: cover;
+    background-color: #00002e;
+    padding-top: 90px;
+    padding-bottom: 150px;
+}
+
+.about-title {
+    color: #a455ff;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+.about-sub-1 {
+    color: #eedbff;
+    padding-bottom: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.about-mini-1 {
+    color: #681dff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.about-pic-1 {
+    width: 340px;
+    height: 340px;
+    margin-left: -60px;
+}
+
+.about-sub-2 {
+    color: #eedbff;
+    margin-top: 25px;
+    margin-right: 80px;
+    padding-bottom: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.about-mini-2 {
+    color: #681dff;
+    margin-top: 190px;
+    margin-right: 80px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.about-pic-2 {
+    width: 340px;
+    height: 340px;
+    margin-left: -60px;
+    margin-top: 200px;
+}
+
+.res-link {
+    color: #681dff;
+    text-decoration: underline;
+}
+
+.res-link:hover {
+    color: #a455ff;
+}
+
+.about-mini-3 {
+    color: #681dff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+
+.about-pic-3 {
+    width: 340px;
+    height: 340px;
+    margin-left: -60px;
+    margin-top: 90px;
 }

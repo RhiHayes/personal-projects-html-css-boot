@@ -4,10 +4,14 @@ html  {
     overflow-x: hidden;
 }
 
+body {
+    overflow: hidden;
+}
+
 /* NAVBAR SECTION */
 
 .nav-text-brand {
-    color: #ccf1ff;
+    color: #73a9ff;
     font-size: 80px;
     font-family: 'Share Tech Mono', monospace;
 }
@@ -73,7 +77,7 @@ html  {
     width: 700px;
     height: 700px;
     margin-top: -350px;
-    margin-left: -225px;
+    margin-left: -265px;
 }
 
 
@@ -128,9 +132,10 @@ html  {
 }
 
 .about-pic-1 {
-    width: 340px;
-    height: 340px;
-    margin-left: -60px;
+    width: 540px;
+    height: 540px;
+    margin-left: -220px;
+    margin-top: -110px;
 }
 
 .about-sub-2 {
@@ -151,10 +156,10 @@ html  {
 }
 
 .about-pic-2 {
-    width: 340px;
-    height: 340px;
-    margin-left: -60px;
-    margin-top: 200px;
+    width: 640px;
+    height: 640px;
+    margin-left: -160px;
+    margin-top: 20px;
 }
 
 .res-link {
@@ -170,13 +175,13 @@ html  {
     color: #681dff;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 
 .about-pic-3 {
-    width: 340px;
-    height: 340px;
-    margin-left: -60px;
-    margin-top: 90px;
+    width: 400px;
+    height: 400px;
+    margin-left: -120px;
+    margin-top: -5px;
 }

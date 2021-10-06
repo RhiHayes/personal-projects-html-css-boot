@@ -185,3 +185,54 @@ body {
     margin-left: -120px;
     margin-top: -5px;
 }
+
+
+/* EXPERIENCE SECTION */
+
+.experience {
+    background-color: #00002e;
+    padding-bottom: 150px;
+    padding-top: 60px;
+}
+
+.float {
+    width: 230px;
+    height: 230px;
+    margin-top: -200px;
+}
+
+
+/* ANIMATION IN HERE */
+
+@keyframes ani{
+    0%{background-position: 0 0;}
+    100%{background-position: 100vw 0;}
+}
+.space {
+    background:url("rhi-images/loop.png") repeat-x 0 / 100% auto;
+    height: 50px; /* this value is not important, just not zero */
+    background-color: #00002e;
+    padding-bottom: 50px;
+    padding-top: 250px;
+    animation: ani 15s linear infinite;
+    animation-direction: reverse;
+}
+
+/* ANIMATION IN HERE */
+
+.exp-title {
+    color: #a455ff;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* MAKE THIS A ROCKET GOING ACROSS THE SCREEN */
+
+.star-border {
+    background-color: #00002e;
+    background-image: url("rhi-images/cluster.png");
+    background-repeat: no-repeat;
+    background-size: 60px;
+    height: 90px;
+}

@@ -6,6 +6,7 @@ html  {
 
 body {
     overflow: hidden;
+    background-color: #00002e;
 }
 
 /* NAVBAR SECTION */
@@ -187,12 +188,10 @@ body {
 }
 
 
-/* EXPERIENCE SECTION */
+/* EXPERIENCE TITLE SECTION */
 
-.experience {
+.experience-title {
     background-color: #00002e;
-    padding-bottom: 150px;
-    padding-top: 60px;
 }
 
 .float {
@@ -214,7 +213,7 @@ body {
     background-color: #00002e;
     padding-bottom: 50px;
     padding-top: 250px;
-    animation: ani 15s linear infinite;
+    animation: ani 20s linear infinite;
     animation-direction: reverse;
 }
 
@@ -227,12 +226,90 @@ body {
     text-align: center;
 }
 
-/* MAKE THIS A ROCKET GOING ACROSS THE SCREEN */
+/* MOVING UFO ACROSS SCREEN */
 
-.star-border {
-    background-color: #00002e;
-    background-image: url("rhi-images/cluster.png");
-    background-repeat: no-repeat;
-    background-size: 60px;
-    height: 90px;
+@keyframes image-slide {
+    0% {
+        transform: translatex(-250px) scale(0);
+    }
+    60% {
+        transform: translatex(-250px) scale(1);
+    }
+    90% {
+        transform: translatex(150px) scale(1);
+    }
+    100% {
+        transform: translatex(150px) scale(1);
+    }
 }
+
+@keyframes text-slide {
+    0% {
+        width: 100%;
+    }
+    60% {
+        width: 100%;
+    }
+    75%{
+        width: 0;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+
+
+.container {
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+.ufo {
+    -webkit-animation: image-slide 4s cubic-bezier(.5,.5,0,1);
+    animation: image-slide 4s cubic-bezier(.5,.5,0,1);
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    height: 200px;
+}
+
+
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -webkit-transform: translate(-40%, -50%);
+    transform: translate(-40%, -50%);
+    z-index: 1;
+}
+
+.fading-effect {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: #00002e;
+    -webkit-animation: text-slide 4s cubic-bezier(.5,.5,0,1);
+    animation: text-slide 4s cubic-bezier(.5,.5,0,1);
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+/* EXPERIENCE CONTENT SECTION */
+
+

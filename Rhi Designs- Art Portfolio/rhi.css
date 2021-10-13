@@ -347,3 +347,31 @@ body {
     margin-top: -50px;
 }
 
+/* NAVIGATION TABS SECTION */
+
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #681dff;
+    border: 2px #681dff solid !important;
+}
+
+.nav-item .nav-link {
+    color: #eedbff;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #000098;
+    color: #add1ff;
+    border: 2px #add1ff solid !important;
+}
+
+.nav-item .nav-link.active {
+    background-color: #00002e !important;
+    color: #eedbff !important;
+    border: 2px #681dff solid !important;
+}
+
+/* FLAT ART TAB */
+

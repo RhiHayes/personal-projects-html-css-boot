@@ -188,9 +188,9 @@ body {
 }
 
 
-/* EXPERIENCE TITLE SECTION */
+/* SKILLS TITLE SECTION */
 
-.experience-title {
+.skills-title {
     background-color: #00002e;
 }
 
@@ -219,7 +219,7 @@ body {
 
 /* ANIMATION IN HERE */
 
-.exp-title {
+.skill-title {
     color: #a455ff;
     font-family: 'Share Tech Mono', monospace;
     font-size: 50px;
@@ -278,6 +278,8 @@ body {
 }
 
 
+/* Image slide is called here */
+
 .ufo {
     -webkit-animation: image-slide 4s cubic-bezier(.5,.5,0,1);
     animation: image-slide 4s cubic-bezier(.5,.5,0,1);
@@ -296,6 +298,8 @@ body {
     z-index: 1;
 }
 
+/* Text slide is called here */
+
 .fading-effect {
     position: absolute;
     top: 0;
@@ -311,3 +315,35 @@ body {
 
 
 /* EXPERIENCE CONTENT SECTION */
+
+.skill-content {
+    background-color: #00002e;
+    padding-top: 90px;
+    padding-bottom: 150px;
+}
+
+.sub-title {
+    color: #eedbff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sub-mini-title {
+    color: #a455ff;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sub-img {
+    width: 250px;
+    height: 250px;
+}
+
+.sub-img-2 {
+    width: 250px;
+    height: 250px;
+    margin-top: -50px;
+}
+

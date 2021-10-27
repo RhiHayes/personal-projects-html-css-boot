@@ -94,8 +94,8 @@ body {
 .geo-3 {
     width: 800px;
     height: 800px;
-    margin-left: 30px;
-    margin-top: -300px;
+    margin-left: -50px;
+    margin-top: -260px;
 }
 
 /* TECHNICAL SKILLS SECTION */
@@ -145,8 +145,11 @@ body {
 .icon-mini {
     width: 60px;
     height: 60px;
-    margin-left: -20px;
+    margin-left: -40px;
+    margin-top: -6px;
+    margin-right: 10px;
 }
+
 
 .icon-hidden {
     display: none;
@@ -223,11 +226,12 @@ body {
         display: none;
     }
 
+
     .icon-hidden {
         display: block;
         width: 170px;
         height: 170px;
-        margin: 60px auto 20px;
+        margin: 90px auto 20px;
     }
 
 }

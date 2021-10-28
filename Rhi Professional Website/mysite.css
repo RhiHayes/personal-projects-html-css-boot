@@ -8,6 +8,11 @@ body {
     overflow: hidden;
 }
 
+.size-wrapper { /* Keeps everything from over-expanding on bigger pages*/
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1425px;
+}
 
 /* CSS ANIMATIONS */
 
@@ -109,7 +114,7 @@ body {
     background-image: url("prof-images/jewels-hori.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center top;
+    background-position: 40% 75%;
 }
 
 .space {
@@ -165,7 +170,7 @@ body {
     background-image: url("prof-images/jewels-hori.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center top;
+    background-position: 75% 50%;
     transform:scaleX(-1);
 }
 
@@ -192,7 +197,7 @@ body {
 }
 
 .space-2 {
-    margin-top: -370px;
+    margin-top: -300px;
     margin-bottom: 150px;
     padding: 100px;
 }
@@ -310,9 +315,11 @@ body {
 
 }
 
-@media (max-width: 770px) {
+@media (max-width: 755px) {
 
     .geo-3 {
+        width: 600px;
+        height: 600px;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -322,6 +329,14 @@ body {
     .my-pic {
         width: 400px;
         height: 400px;
+    }
+
+}
+
+@media (min-width: 755px) and (max-width: 1100px) {
+
+    .geo-3 {
+        margin-left: -160px;
     }
 
 }

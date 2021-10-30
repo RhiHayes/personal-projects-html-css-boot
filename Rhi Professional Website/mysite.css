@@ -72,7 +72,6 @@ body {
 .my-name {
     text-align: center;
     font-family: 'PT Serif', serif;
-
 }
 
 .my-title {
@@ -231,11 +230,28 @@ body {
     padding-top: 80px;
 }
 
+.exp-container {
+    background-image: url("prof-images/triangles.png");
+    background-size: cover;
+}
+
 .exp-row {
     padding-top: 60px;
     margin-left: 90px;
     margin-right: 90px;
 }
+
+.job-title {
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+}
+
+
+.job-desc {
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
+
 
 li {
     margin-left: -50px;
@@ -245,6 +261,8 @@ li {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 65px;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 li:nth-child(2) {

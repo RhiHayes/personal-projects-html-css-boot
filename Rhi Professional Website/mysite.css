@@ -91,9 +91,9 @@ body {
 }
 
 .nav-small {
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
 }
@@ -128,12 +128,12 @@ body {
 }
 
 .about-desc {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'PT Sans', sans-serif;
 }
 
 .about-desc-2 {
-    font-size: 15px;
+    font-size: 18px;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -225,7 +225,39 @@ body {
     padding: 100px;
 }
 
+/* EXPERIENCE SECTION */
 
+.experience-section {
+    padding-top: 80px;
+}
+
+.exp-row {
+    padding-top: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+li {
+    margin-left: -50px;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("prof-images/blue-diamond.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 65px;
+}
+
+li:nth-child(2) {
+    background-image: url("prof-images/purple-diamond.png");
+}
+
+li:nth-child(3) {
+    background-image: url("prof-images/pink-diamond.png");
+}
+
+li:nth-child(5) {
+    background-image: url("prof-images/purple-diamond.png");
+}
 
 
 /* Defines Medium View and Up Sizes */

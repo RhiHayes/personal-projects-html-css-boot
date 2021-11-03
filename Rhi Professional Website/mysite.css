@@ -17,8 +17,8 @@ body {
 /* CSS ANIMATIONS */
 
 .popout {
-    animation: popout 2.0s ease;
-    -webkit-animation: popout 1.5s ease;
+    animation: popout 4.0s ease;
+    -webkit-animation: popout 3.5s ease;
 }
 @keyframes popout {
     from{transform:scale(0)}

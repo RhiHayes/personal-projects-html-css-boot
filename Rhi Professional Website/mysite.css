@@ -298,7 +298,7 @@ li:nth-child(5) {
 
 .project-box {
     border: 5px solid transparent;
-    border-image: url("prof-images/triangles-2.png") 70 round; /* Make new image with triangles on each side */
+    border-image: url("prof-images/triangles-2.png") 50; /* Make new image with triangles on each side */
     padding: 20px 80px 50px 20px;
     margin: 40px;
 }
@@ -374,6 +374,24 @@ li:nth-child(5) {
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 14px !important;
+}
+
+.wix-btn {
+    color: #F8BBD0 !important;
+    background-color: #5c0e24 !important;
+    border: none !important;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 14px !important;
+
+}
+
+.udemy-btn {
+    color: white !important;
+    background-color: #ff6691 !important;
+    border: none !important;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 14px !important;
+
 }
 
 /* Defines Medium View and Up Sizes */

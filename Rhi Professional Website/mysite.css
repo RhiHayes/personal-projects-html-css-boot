@@ -311,7 +311,7 @@ li:nth-child(5) {
     margin-right: 20px;
 }
 
-.proj-title {
+.proj-sec-title {
     margin-top: 100px;
     margin-bottom: 40px;
     margin-left: 50px;
@@ -319,11 +319,11 @@ li:nth-child(5) {
     font-family: 'PT Serif', serif;
 }
 
-
 .demo-button {
     color: #F4C8F2 !important;
     background-color: #8A5FEC !important;
     border: none !important;
+    font-family: 'PT Sans', serif !important;
 }
 
 .demo-button:hover {
@@ -336,6 +336,7 @@ li:nth-child(5) {
     color: #A8E8FF !important;
     background-color: #6671F0 !important;
     border: none !important;
+    font-family: 'PT Sans', serif !important;
 }
 
 .git-button:hover {
@@ -348,6 +349,31 @@ li:nth-child(5) {
     background-color: #02a300 !important;
     color: #AEFF00 !important;
     border: none !important;
+    font-family: 'PT Sans', sans-serif !important;
+}
+
+.personal-btn {
+    color: white !important;
+    background-color: #F48FB1 !important;
+    border: none !important;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 14px !important;
+}
+
+.codeup-btn {
+    color: #FCE4EC !important;
+    background-color: #EC407a !important;
+    border: none !important;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 14px !important;
+}
+
+.work-btn {
+    color: #F8BBD0 !important;
+    background-color: #880e4f !important;
+    border: none !important;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 14px !important;
 }
 
 /* Defines Medium View and Up Sizes */

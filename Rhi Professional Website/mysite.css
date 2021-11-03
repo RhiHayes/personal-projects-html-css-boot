@@ -289,6 +289,66 @@ li:nth-child(5) {
     background-image: url("prof-images/purple-diamond.png");
 }
 
+/* PROJECTS SECTION */
+
+.projects-section {
+    margin-top: -130px;
+    margin-bottom: 100px;
+}
+
+.project-box {
+    border: 5px solid transparent;
+    border-image: url("prof-images/triangles-2.png") 70 round; /* Make new image with triangles on each side */
+    padding: 20px 80px 50px 20px;
+    margin: 40px;
+}
+
+.project-image {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.proj-title {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: 'PT Serif', serif;
+}
+
+
+.demo-button {
+    color: #F4C8F2 !important;
+    background-color: #8A5FEC !important;
+    border: none !important;
+}
+
+.demo-button:hover {
+    background-color: #C2A3FF !important;
+    border: none !important;
+    color: white !important;
+}
+
+.git-button {
+    color: #A8E8FF !important;
+    background-color: #6671F0 !important;
+    border: none !important;
+}
+
+.git-button:hover {
+    background-color: #68B0FD !important;
+    border: none !important;
+    color: white !important;
+}
+
+.yah-button {
+    background-color: #02a300 !important;
+    color: #AEFF00 !important;
+    border: none !important;
+}
 
 /* Defines Medium View and Up Sizes */
 

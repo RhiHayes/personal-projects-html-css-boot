@@ -81,6 +81,11 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+.link {
+    color: black;
+    text-decoration: none !important;
+}
+
 .nav-big {
     margin-right: 5px;
     margin-left: 5px;
@@ -89,12 +94,20 @@ body {
     font-family: 'PT Serif', serif;
 }
 
+.nav-big:hover {
+    color: grey;
+}
+
 .nav-small {
     margin-right: 10px;
     margin-left: 10px;
     font-size: 18px;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
+}
+
+.nav-small:hover {
+    color: grey;
 }
 
 .jewel-1 {
@@ -304,8 +317,8 @@ li:nth-child(5) {
 }
 
 .project-image {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 20px;
@@ -317,6 +330,20 @@ li:nth-child(5) {
     margin-left: 50px;
     font-size: 35px;
     font-family: 'PT Serif', serif;
+}
+
+.proj-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'PT Serif', serif;
+}
+
+.proj-desc {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'PT Sans', serif;
 }
 
 .demo-button {

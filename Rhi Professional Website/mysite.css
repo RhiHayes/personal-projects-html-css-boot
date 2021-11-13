@@ -429,6 +429,46 @@ li:nth-child(5) {
 
 }
 
+.cert-section {
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.cert-sec-title {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: 'PT Serif', serif;
+}
+
+.cert-box {
+    text-align: center;
+}
+
+.mini-cert-box {
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.cert-title {
+    font-size: 25px;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 35px;
+}
+
+.cert-icon {
+    width: 200px;
+    height: 200px;
+}
+
+.cert-btn {
+    margin-top: 60px;
+}
+
+
+
 /* Defines Medium View and Up Sizes */
 
 @media (min-width: 768px) {

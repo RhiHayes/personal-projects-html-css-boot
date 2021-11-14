@@ -459,15 +459,69 @@ li:nth-child(5) {
 }
 
 .cert-icon {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
-.cert-btn {
+.cert-btn-1 {
     margin-top: 60px;
+    color: #F4C8F2 !important;
+    background-color: #8A5FEC !important;
+    border: none !important;
+    font-family: 'PT Sans', serif !important;
+    font-size: 18px !important;
 }
 
+.cert-btn-1:hover {
+    background-color: #C2A3FF !important;
+    border: none !important;
+    color: white !important;
+}
 
+.cert-btn-2 {
+    margin-top: 60px;
+    color: #A8E8FF !important;
+    background-color: #6671F0 !important;
+    border: none !important;
+    font-family: 'PT Sans', serif !important;
+    font-size: 18px !important;
+}
+
+.cert-btn-2:hover {
+    background-color: #68B0FD !important;
+    border: none !important;
+    color: white !important;
+}
+
+.cert-btn-3 {
+    margin-top: 60px;
+    color: #f4c8f2 !important;
+    background-color: #bb65e6 !important;
+    border: none !important;
+    font-family: 'PT Sans', serif !important;
+    font-size: 18px !important;
+}
+
+.cert-btn-3:hover {
+    background-color: #d390f4 !important;
+    border: none !important;
+    color: white !important;
+}
+
+.cert-btn-4 {
+    margin-top: 60px;
+    color: #F8BBD0 !important;
+    background-color: #EC407a !important;
+    border: none !important;
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 18px !important;
+}
+
+.cert-btn-4:hover {
+    background-color: #F48FB1 !important;
+    border: none !important;
+    color: white !important;
+}
 
 /* Defines Medium View and Up Sizes */
 

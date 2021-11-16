@@ -113,6 +113,11 @@ body {
     color: grey;
 }
 
+a {
+    color: black;
+    text-decoration: none !important;
+ }
+
 .jewel-1 {
     width: 60px;
     height: 60px;
@@ -370,6 +375,11 @@ li:nth-child(5) {
     color: white !important;
 }
 
+.demo-button:focus, .demo-button:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 .git-button {
     color: #A8E8FF !important;
     background-color: #6671F0 !important;
@@ -384,12 +394,22 @@ li:nth-child(5) {
     color: white !important;
 }
 
+.git-button:focus, .git-button:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 .yah-button {
     background-color: #02a300 !important;
     color: #AEFF00 !important;
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     margin: 5px;
+}
+
+.yah-button:focus, .yah-button:active {
+    outline: none !important;
+    box-shadow: none;
 }
 
 .personal-btn {
@@ -401,6 +421,11 @@ li:nth-child(5) {
     margin: 5px;
 }
 
+.personal-btn:focus, .personal-btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 .codeup-btn {
     color: #FCE4EC !important;
     background-color: #EC407a !important;
@@ -410,6 +435,11 @@ li:nth-child(5) {
     margin: 5px;
 }
 
+.codeup-btn:focus, .codeup-btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 .work-btn {
     color: #F8BBD0 !important;
     background-color: #880e4f !important;
@@ -417,6 +447,11 @@ li:nth-child(5) {
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
     margin: 5px;
+}
+
+.work-btn:focus, .work-btn:active {
+    outline: none !important;
+    box-shadow: none;
 }
 
 .wix-btn {
@@ -429,6 +464,11 @@ li:nth-child(5) {
 
 }
 
+.wix-btn:focus, .wix-btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 .udemy-btn {
     color: white !important;
     background-color: #ff6691 !important;
@@ -436,7 +476,11 @@ li:nth-child(5) {
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
     margin: 5px;
+}
 
+.udemy-btn:focus, .udemy-btn:active {
+    outline: none !important;
+    box-shadow: none;
 }
 
 /* CERTIFICATIONS SECTION */

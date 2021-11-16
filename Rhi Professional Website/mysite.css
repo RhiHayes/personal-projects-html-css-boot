@@ -89,16 +89,16 @@ body {
     text-decoration: none !important;
 }
 
+.link:hover {
+    color: grey;
+}
+
 .nav-big {
     margin-right: 5px;
     margin-left: 5px;
     font-size: 25px;
     text-align: center;
     font-family: 'PT Serif', serif;
-}
-
-.nav-big:hover {
-    color: grey;
 }
 
 .nav-small {
@@ -135,6 +135,7 @@ body {
 .about-me-section {
     margin-bottom: 150px;
     margin-top: 250px;
+    padding-top: 80px;
 }
 
 .about-heading {
@@ -315,6 +316,7 @@ li:nth-child(5) {
 .projects-section {
     margin-top: -130px;
     margin-bottom: 100px;
+    padding-top: 10px;
 }
 
 .project-box {
@@ -432,6 +434,7 @@ li:nth-child(5) {
 .cert-section {
     margin-top: 130px;
     margin-bottom: 100px;
+    padding-top: 10px;
 }
 
 .cert-sec-title {

@@ -134,7 +134,7 @@ body {
 
 .about-me-section {
     margin-bottom: 150px;
-    margin-top: 250px;
+    margin-top: 150px;
     padding-top: 80px;
 }
 
@@ -361,6 +361,7 @@ li:nth-child(5) {
     background-color: #8A5FEC !important;
     border: none !important;
     font-family: 'PT Sans', serif !important;
+    margin: 5px;
 }
 
 .demo-button:hover {
@@ -374,6 +375,7 @@ li:nth-child(5) {
     background-color: #6671F0 !important;
     border: none !important;
     font-family: 'PT Sans', serif !important;
+    margin: 5px;
 }
 
 .git-button:hover {
@@ -387,6 +389,7 @@ li:nth-child(5) {
     color: #AEFF00 !important;
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
+    margin: 5px;
 }
 
 .personal-btn {
@@ -395,6 +398,7 @@ li:nth-child(5) {
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
+    margin: 5px;
 }
 
 .codeup-btn {
@@ -403,6 +407,7 @@ li:nth-child(5) {
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
+    margin: 5px;
 }
 
 .work-btn {
@@ -411,6 +416,7 @@ li:nth-child(5) {
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
+    margin: 5px;
 }
 
 .wix-btn {
@@ -419,6 +425,7 @@ li:nth-child(5) {
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
+    margin: 5px;
 
 }
 
@@ -428,12 +435,14 @@ li:nth-child(5) {
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
+    margin: 5px;
 
 }
 
+/* CERTIFICATIONS SECTION */
+
 .cert-section {
-    margin-top: 130px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     padding-top: 10px;
 }
 
@@ -526,6 +535,29 @@ li:nth-child(5) {
     color: white !important;
 }
 
+/* FOOTER SECTION */
+
+.footer-section {
+    margin-top: 240px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+.contact-img {
+    width: 300px;
+    height: 300px;
+}
+
+.footer-heading {
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: 'PT Serif', serif;
+}
+
+.footer-desc {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
 /* Defines Medium View and Up Sizes */
 
 @media (min-width: 768px) {
@@ -639,6 +671,27 @@ li:nth-child(5) {
     .job-desc {
         text-align: center;
         margin-bottom: 80px;
+    }
+
+    .proj-sec-title {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
+    .cert-sec-title {
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+
+    .footer-heading {
+        text-align: center;
+    }
+
+    .footer-desc {
+        text-align: center;
+        padding: 40px;
     }
 
 

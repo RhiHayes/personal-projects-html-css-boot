@@ -534,6 +534,11 @@ li:nth-child(5) {
     color: white !important;
 }
 
+.cert-btn-1:focus, .cert-btn-1:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 .cert-btn-2 {
     margin-top: 60px;
     color: #A8E8FF !important;
@@ -547,6 +552,11 @@ li:nth-child(5) {
     background-color: #68B0FD !important;
     border: none !important;
     color: white !important;
+}
+
+.cert-btn-2:focus, .cert-btn-2:active {
+    outline: none !important;
+    box-shadow: none;
 }
 
 .cert-btn-3 {
@@ -564,6 +574,11 @@ li:nth-child(5) {
     color: white !important;
 }
 
+.cert-btn-3:focus, .cert-btn-3:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 .cert-btn-4 {
     margin-top: 60px;
     color: #F8BBD0 !important;
@@ -577,6 +592,11 @@ li:nth-child(5) {
     background-color: #F48FB1 !important;
     border: none !important;
     color: white !important;
+}
+
+.cert-btn-4:focus, .cert-btn-4:active {
+    outline: none !important;
+    box-shadow: none;
 }
 
 /* FOOTER SECTION */

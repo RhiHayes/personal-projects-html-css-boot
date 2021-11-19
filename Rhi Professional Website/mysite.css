@@ -581,15 +581,15 @@ li:nth-child(5) {
 
 .cert-btn-4 {
     margin-top: 60px;
-    color: #F8BBD0 !important;
-    background-color: #EC407a !important;
+    color: #fddef6 !important;
+    background-color: #F57fdc !important;
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 18px !important;
 }
 
 .cert-btn-4:hover {
-    background-color: #F48FB1 !important;
+    background-color: #F9aee9 !important;
     border: none !important;
     color: white !important;
 }

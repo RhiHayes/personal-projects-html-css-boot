@@ -180,7 +180,7 @@ a {
 }
 
 .space {
-    margin-top: -370px;
+    margin-top: -255px;
     margin-bottom: 150px;
     padding: 100px;
 }
@@ -319,7 +319,7 @@ li:nth-child(5) {
 /* PROJECTS SECTION */
 
 .projects-section {
-    margin-top: -130px;
+    margin-top: -250px;
     margin-bottom: 100px;
     padding-top: 10px;
 }
@@ -602,8 +602,7 @@ li:nth-child(5) {
 /* FOOTER SECTION */
 
 .footer-section {
-    margin-top: 240px;
-    margin-bottom: 30px;
+    margin-top: 100px;
     padding-top: 10px;
 }
 

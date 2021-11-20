@@ -188,29 +188,25 @@ a {
 .skills-title {
     margin-top: 40px;
     margin-left: 90px;
+    margin-bottom: 90px;
     font-size: 35px;
     font-family: 'PT Serif', serif;
 }
 
 .skills-row {
-    padding-top: 60px;
     margin-left: 90px;
     margin-right: 90px;
 }
 
-.skills-item {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
 .skill-mini-title {
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'PT Serif', serif;
 }
 
 .icon {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-left: -30px;
 }
 
@@ -246,7 +242,7 @@ a {
 }
 
 .space-2 {
-    margin-top: -300px;
+    margin-top: -450px;
     margin-bottom: 150px;
     padding: 100px;
 }

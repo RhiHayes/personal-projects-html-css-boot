@@ -259,7 +259,6 @@ a {
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
-    padding-bottom: 100px;
 
 }
 
@@ -271,7 +270,7 @@ a {
 }
 
 .exp-row {
-    padding-top: 60px;
+    padding-top: 30px;
     margin-left: 90px;
     margin-right: 90px;
 }
@@ -284,13 +283,14 @@ a {
 
 .job-desc {
     font-size: 20px;
+    padding-bottom: 10px;
     font-family: 'PT Serif', serif;
 }
 
 
 li {
     margin-left: -50px;
-    padding: 36px 0 36px 84px;
+    padding: 0px 0 36px 84px;
     list-style: none;
     background-image: url("prof-images/blue-diamond.png");
     background-repeat: no-repeat;
@@ -500,8 +500,8 @@ li:nth-child(5) {
 
 .mini-cert-box {
     padding: 20px;
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cert-title {
@@ -511,8 +511,8 @@ li:nth-child(5) {
 }
 
 .cert-icon {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
 
 .cert-btn-1 {
@@ -633,7 +633,7 @@ li:nth-child(5) {
 @media (max-width: 768px) {
 
     .nav-small {
-        margin-top: 20px;
+        margin-top: 70px;
     }
 
     .nav-big {
@@ -656,7 +656,7 @@ li:nth-child(5) {
     }
 
     .about-me-section {
-        margin-top: 90px;
+        margin-top: -70px;
     }
 
     .tech-skill-section {
@@ -675,7 +675,7 @@ li:nth-child(5) {
     }
 
     .skill-mini-title {
-        font-size: 45px;
+        font-size: 25px;
         font-family: 'PT Serif', serif;
         text-align: center;
     }
@@ -691,9 +691,9 @@ li:nth-child(5) {
 
     .icon-hidden {
         display: block;
-        width: 170px;
-        height: 170px;
-        margin: 90px auto 20px;
+        width: 70px;
+        height: 70px;
+        margin: 40px auto 20px;
     }
 
 
@@ -711,13 +711,13 @@ li:nth-child(5) {
     }
 
     .space-2 {
-        margin-top: -330px;
+        margin-top: -480px;
         margin-bottom: 250px;
     }
 
     .exp-title {
-        margin-top: 20px;
-        margin-bottom: 60px;
+        margin-top: -70px;
+        margin-bottom: 20px;
         text-align: center;
         margin-left: 0px;
     }
@@ -738,10 +738,19 @@ li:nth-child(5) {
         margin-left: 0px;
     }
 
+    .cert-section {
+        margin-top: -170px;
+        padding-top: 10px;
+    }
+
     .cert-sec-title {
         text-align: center;
         margin-bottom: 30px;
         margin-left: 0px;
+    }
+
+    .footer-heading {
+        margin-top: -200px;
     }
 
     .footer-heading {
@@ -751,6 +760,10 @@ li:nth-child(5) {
     .footer-desc {
         text-align: center;
         padding: 40px;
+    }
+
+    .small-hidden {
+        display: none;
     }
 
 

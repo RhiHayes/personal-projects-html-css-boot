@@ -242,7 +242,7 @@ a {
 }
 
 .space-2 {
-    margin-top: -450px;
+    margin-top: 10px;
     margin-bottom: 150px;
     padding: 100px;
 }
@@ -482,6 +482,7 @@ li:nth-child(5) {
 /* CERTIFICATIONS SECTION */
 
 .cert-section {
+    margin-top: -150px;
     margin-bottom: 50px;
     padding-top: 10px;
 }
@@ -711,7 +712,7 @@ li:nth-child(5) {
     }
 
     .space-2 {
-        margin-top: -480px;
+        margin-top: -80px;
         margin-bottom: 250px;
     }
 
@@ -739,7 +740,7 @@ li:nth-child(5) {
     }
 
     .cert-section {
-        margin-top: -170px;
+        margin-top: -270px;
         padding-top: 10px;
     }
 

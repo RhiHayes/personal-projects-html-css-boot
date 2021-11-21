@@ -409,7 +409,7 @@ li:nth-child(5) {
 
 .personal-btn {
     color: white !important;
-    background-color: #F48FB1 !important;
+    background-color: #ffbdf1 !important;
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
@@ -422,8 +422,8 @@ li:nth-child(5) {
 }
 
 .codeup-btn {
-    color: #FCE4EC !important;
-    background-color: #EC407a !important;
+    color: #f4c8f2 !important;
+    background-color: #bb65e6 !important;
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
@@ -436,8 +436,8 @@ li:nth-child(5) {
 }
 
 .work-btn {
-    color: #F8BBD0 !important;
-    background-color: #880e4f !important;
+    background-color: #d390f4 !important;
+    color: white !important;
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
@@ -450,8 +450,8 @@ li:nth-child(5) {
 }
 
 .wix-btn {
-    color: #F8BBD0 !important;
-    background-color: #5c0e24 !important;
+    color: #fddef6 !important;
+    background-color: #F57fdc !important;
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
@@ -465,9 +465,9 @@ li:nth-child(5) {
 }
 
 .udemy-btn {
-    color: white !important;
-    background-color: #ff6691 !important;
+    background-color: #F9aee9 !important;
     border: none !important;
+    color: white !important;
     font-family: 'PT Sans', sans-serif !important;
     font-size: 12px !important;
     margin: 5px;

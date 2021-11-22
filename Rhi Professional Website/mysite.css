@@ -241,7 +241,7 @@ a {
 }
 
 .space-2 {
-    margin-top: 10px;
+    margin-top: -250px;
     margin-bottom: 150px;
     padding: 100px;
 }
@@ -315,12 +315,13 @@ li:nth-child(5) {
 
 .projects-section {
     margin-top: -250px;
-    margin-bottom: 100px;
+    margin-bottom: 260px;
     padding-top: 10px;
 }
 
 .project-box {
-    border: 5px solid transparent;
+    border-width: 5px;
+    border-style: solid;
     border-image: url("prof-images/triangles-2.png") 50; /* Make new image with triangles on each side */
     padding: 20px 80px 50px 20px;
     margin: 40px;
@@ -335,7 +336,7 @@ li:nth-child(5) {
 }
 
 .proj-sec-title {
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 40px;
     margin-left: 50px;
     font-size: 35px;
@@ -395,8 +396,8 @@ li:nth-child(5) {
 }
 
 .yah-button {
-    background-color: #02a300 !important;
-    color: #AEFF00 !important;
+    background-color: #68B0FD !important;
+    color: white !important;
     border: none !important;
     font-family: 'PT Sans', sans-serif !important;
     margin: 5px;
@@ -714,7 +715,7 @@ li:nth-child(5) {
     }
 
     .space-2 {
-        margin-top: -80px;
+        margin-top: -250px;
         margin-bottom: 250px;
     }
 
@@ -813,6 +814,11 @@ li:nth-child(5) {
 
     .exp-container-img {
         background-image: none;
+    }
+
+    .space-2 {
+        margin-top: -250px;
+        margin-bottom: 150px;
     }
 
 }

@@ -77,11 +77,21 @@ body {
     font-family: 'PT Serif', serif;
 }
 
+.my-title-big {
+    margin-top: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+}
+
+
 .my-title {
     margin-top: 30px;
     margin-bottom: 50px;
     text-align: center;
     font-family: 'PT Serif', serif;
+    font-size: 20px;
 }
 
 .link {
@@ -115,7 +125,6 @@ body {
 
 a {
     color: black;
-    text-decoration: none !important;
  }
 
 .jewel-1 {
@@ -164,6 +173,11 @@ a {
     margin-left: -50px;
     margin-top: -260px;
 }
+
+.rhi-designs {
+    text-decoration: underline;
+}
+
 
 /* TECHNICAL SKILLS SECTION */
 
@@ -250,7 +264,6 @@ a {
 
 .experience-section {
     padding-top: 80px;
-    padding-bottom: 180px;
 }
 
 .exp-container-img {

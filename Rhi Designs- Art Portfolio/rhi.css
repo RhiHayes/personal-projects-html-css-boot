@@ -429,6 +429,11 @@ body {
     padding: 10px;
 }
 
+.big-verti-img {
+    height: 1600px;
+    width: 400px;
+}
+
 .grow { transition: all .2s ease-in-out; }
 
 .grow:hover { transform: scale(1.1); }

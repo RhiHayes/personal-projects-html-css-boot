@@ -423,6 +423,19 @@ body {
     padding: 10px;
 }
 
+.big-hori-img-3 {
+    width: 1200px;
+    height: 400px;
+    padding: 10px;
+}
+
+.big-hori-img-4 {
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+}
+
+
 .square-img {
     width: 300px;
     height: 300px;
@@ -433,6 +446,17 @@ body {
     width: 330px;
     height: 300px;
     padding: 10px;
+}
+
+.big-square-img {
+    width: 530px;
+    height: 500px;
+    padding: 10px;
+}
+
+.verti-img {
+    height: 800px;
+    width: 500px;
 }
 
 .big-verti-img {

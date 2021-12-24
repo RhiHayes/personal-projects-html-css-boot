@@ -634,6 +634,15 @@ body {
         display: none;
     }
 
+    .float {
+        width: 140px;
+        height: 140px;
+        margin-top: -250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 869px) { /* For Images */
@@ -642,6 +651,127 @@ body {
         margin-left: -250px;
         width: 550px;
         height: 550px;
+    }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1095px) { /* For Images */
+
+    .float {
+        width: 180px;
+        height: 180px;
+        margin-top: -210px;
+    }
+
+}
+
+
+
+@media (min-width:1000px) {
+
+    @keyframes ufo-animation {
+        0% {
+            transform: translatex(-250px) scale(0);
+        }
+        60% {
+            transform: translatex(-250px) scale(1);
+        }
+        90% {
+            transform: translatex(150px) scale(1);
+        }
+        100% {
+            transform: translatex(150px) scale(1);
+        }
+    }
+
+    @keyframes fading-effect-animation {
+        0% {
+            width: 100%;
+        }
+        60% {
+            width: 100%;
+        }
+        77% {
+            width: 0;
+        }
+        100% {
+            width: 0;
+        }
+    }
+
+}
+
+@media (max-width:1000px) {
+
+    @keyframes ufo-animation {
+        0% {
+            transform: translatex(-150px) scale(0);
+        }
+        60% {
+            transform: translatex(-150px) scale(1);
+        }
+        90% {
+            transform: translatex(120px) scale(1);
+        }
+        100% {
+            transform: translatex(120px) scale(1);
+        }
+    }
+
+
+    @keyframes fading-effect-animation {
+        0% {
+            width: 100%;
+        }
+        60% {
+            width: 100%;
+        }
+        77%{
+            width: 0;
+        }
+        100% {
+            width: 0;
+        }
+    }
+
+    .ufo {
+        width: 180px;
+        height: 180px;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    @keyframes ufo-animation {
+        0% {
+            transform: translatex(-80px) scale(0);
+        }
+        60% {
+            transform: translatex(-80px) scale(1);
+        }
+        90% {
+            transform: translatex(80px) scale(1);
+        }
+        100% {
+            transform: translatex(80px) scale(1);
+        }
+    }
+
+    @keyframes fading-effect-animation {
+        0% {
+            width: 100%;
+        }
+        60% {
+            width: 100%;
+        }
+        77% {
+            width: 0;
+        }
+        100% {
+            width: 0;
+        }
     }
 
 }

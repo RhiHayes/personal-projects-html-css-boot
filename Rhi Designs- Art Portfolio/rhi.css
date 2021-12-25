@@ -322,7 +322,7 @@
 .skill-content {
     background-color: #00002e;
     padding-top: 90px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .sub-title {
@@ -641,6 +641,27 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .skill-content {
+        padding-top: 0px;
+        padding-bottom: 120px;
+    }
+
+    .sub-title {
+        padding-top: 40px;
+        color: #eedbff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .sub-mini-title {
+        color: #a455ff;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 20px;
+        text-align: center;
     }
 
 }

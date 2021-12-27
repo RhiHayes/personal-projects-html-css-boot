@@ -48,3 +48,22 @@ $(document).ready(function(){
         }  // End if
     });
 });
+
+
+// When the user clicks on div, open the popup.
+
+//Need individual functions for each popup for the following reasons:
+
+// * To avoid all popups showing up at once (thus why using getElementsByClassName doesn't work).
+// * Need to get it by Id, because you only want ONE popup to show at a time.
+// * No way to generate unique ids/ loop function for every icon. Must manually write all functions.
+
+function popup1() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+
+function popup2() {
+    var popup = document.getElementById("myPopup2");
+    popup.classList.toggle("show");
+}

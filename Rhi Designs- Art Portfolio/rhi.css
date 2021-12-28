@@ -415,7 +415,7 @@
 .hori-img {
     width: 600px;
     height: 300px;
-    padding: 10px;
+    padding: 0px 30px 20px 10px;
 }
 
 .big-hori-img {
@@ -444,8 +444,8 @@
 
 
 .square-img {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     padding: 10px;
 }
 
@@ -752,7 +752,6 @@ body {
         height: 550px;
     }
 
-
 }
 
 @media (min-width: 768px) and (max-width: 1095px) { /* For Images */
@@ -764,6 +763,16 @@ body {
     }
 
 }
+
+/*@media (min-width: 900px) and (max-width: 1300px) {*/
+
+/*    .hori-img {*/
+/*        width: 500px;*/
+/*        height: 200px;*/
+/*    }*/
+
+/*}*/
+
 
 
 

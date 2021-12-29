@@ -437,8 +437,8 @@
 }
 
 .big-hori-img-4 {
-    width: 700px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
     padding: 10px;
 }
 
@@ -464,11 +464,13 @@
 .verti-img {
     height: 500px;
     width: 300px;
+    padding: 10px;
 }
 
 .big-verti-img {
     height: 1600px;
     width: 400px;
+    padding: 10px;
 }
 
 .i-icon {

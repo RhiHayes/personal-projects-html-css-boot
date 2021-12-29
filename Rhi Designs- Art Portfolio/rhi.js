@@ -152,3 +152,88 @@ function popup19() {
     var popup = document.getElementById("myPopup19");
     popup.classList.toggle("show");
 }
+
+function popup20() {
+    var popup = document.getElementById("myPopup20");
+    popup.classList.toggle("show");
+}
+
+function popup21() {
+    var popup = document.getElementById("myPopup21");
+    popup.classList.toggle("show");
+}
+
+function popup22() {
+    var popup = document.getElementById("myPopup22");
+    popup.classList.toggle("show");
+}
+
+function popup23() {
+    var popup = document.getElementById("myPopup23");
+    popup.classList.toggle("show");
+}
+
+function popup24() {
+    var popup = document.getElementById("myPopup24");
+    popup.classList.toggle("show");
+}
+
+function popup25() {
+    var popup = document.getElementById("myPopup25");
+    popup.classList.toggle("show");
+}
+
+function popup26() {
+    var popup = document.getElementById("myPopup26");
+    popup.classList.toggle("show");
+}
+
+function popup27() {
+    var popup = document.getElementById("myPopup27");
+    popup.classList.toggle("show");
+}
+
+function popup28() {
+    var popup = document.getElementById("myPopup28");
+    popup.classList.toggle("show");
+}
+
+function popup29() {
+    var popup = document.getElementById("myPopup29");
+    popup.classList.toggle("show");
+}
+
+function popup30() {
+    var popup = document.getElementById("myPopup30");
+    popup.classList.toggle("show");
+}
+
+function popup31() {
+    var popup = document.getElementById("myPopup31");
+    popup.classList.toggle("show");
+}
+
+function popup32() {
+    var popup = document.getElementById("myPopup32");
+    popup.classList.toggle("show");
+}
+
+function popup33() {
+    var popup = document.getElementById("myPopup33");
+    popup.classList.toggle("show");
+}
+
+function popup34() {
+    var popup = document.getElementById("myPopup34");
+    popup.classList.toggle("show");
+}
+
+function popup35() {
+    var popup = document.getElementById("myPopup35");
+    popup.classList.toggle("show");
+}
+
+function popup36() {
+    var popup = document.getElementById("myPopup36");
+    popup.classList.toggle("show");
+}

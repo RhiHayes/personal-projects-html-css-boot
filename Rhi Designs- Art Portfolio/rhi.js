@@ -237,3 +237,13 @@ function popup36() {
     var popup = document.getElementById("myPopup36");
     popup.classList.toggle("show");
 }
+
+function popup37() {
+    var popup = document.getElementById("myPopup37");
+    popup.classList.toggle("show");
+}
+
+function popup38() {
+    var popup = document.getElementById("myPopup38");
+    popup.classList.toggle("show");
+}

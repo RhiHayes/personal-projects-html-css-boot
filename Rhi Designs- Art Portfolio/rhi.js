@@ -1,5 +1,10 @@
 console.log("Test");
 
+$(window).on('load', function () {
+    $('#loader').hide();
+    $('#art').hide();
+})
+
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         const square = entry.target.querySelector('.ufo');

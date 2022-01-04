@@ -1,3 +1,50 @@
+/* LOADER */
+
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.center-2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.center-3 {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+}
+
+#art {
+    color: #a455ff;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+    text-align: center;
+}
+
+
 /* NAVBAR SECTION */
 
 .nav-text-brand {

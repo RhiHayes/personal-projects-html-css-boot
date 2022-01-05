@@ -16,6 +16,7 @@
 }
 
 .center {
+    z-index: 2;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -38,9 +39,12 @@
 }
 
 #art {
+    z-index: 2;
     color: #a455ff;
     font-family: 'Share Tech Mono', monospace;
     font-size: 40px;
+    background-color: #eedbff;
+    padding: 10px;
     text-align: center;
 }
 

@@ -403,6 +403,14 @@
 
 /* NAVIGATION TABS SECTION */
 
+.arrows {
+    color: #eedbff;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
 .nav-tabs {
     display: flex;
     justify-content: center;
@@ -472,6 +480,12 @@
     width: 600px;
     height: 300px;
     padding: 0px 30px 20px 10px;
+}
+
+.hori-img-2 {
+    width: 700px;
+    height: 300px;
+    padding: 10px;
 }
 
 .big-hori-img {
@@ -850,6 +864,12 @@ body {
         width: 500px;
         height: 200px;
         padding: 0px 30px 20px 10px;
+    }
+
+    .hori-img-2 {
+        width: 500px;
+        height: 200px;
+        padding: 10px;
     }
 
     .big-hori-img-3 {

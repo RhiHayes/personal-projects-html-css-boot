@@ -80,6 +80,11 @@
 
 .navbar-section {
     background-color: #00002e;
+    margin-bottom: 50px;
+}
+
+#myNavbar {
+    background-color: #000028;
 }
 
 .btn-light {
@@ -122,7 +127,7 @@
     width: 700px;
     height: 700px;
     margin-top: -350px;
-    margin-left: -325px;
+    margin-left: -280px;
 }
 
 
@@ -676,8 +681,18 @@ body {
     background-color: #00002e;
 }
 
-/* Defines Small View and Lower Sizes */
-@media (max-width: 768px) {
+/* Defines big View  */
+@media (min-width: 1200px) {
+
+    .title-image {
+        margin-left: -200px;
+    }
+
+}
+
+
+/* Defines Small View  */
+@media (max-width: 767px) {
 
     .title-section {
         margin-top: -80px;
@@ -973,16 +988,77 @@ body {
 
 }
 
-/*@media (min-width: 900px) and (max-width: 1300px) {*/
+/* Defines Phone View  */
 
-/*    .hori-img {*/
-/*        width: 500px;*/
-/*        height: 200px;*/
-/*    }*/
+@media (min-width: 620px) and (max-width: 767px) {
 
-/*}*/
+    .nav-text-brand {
+        font-size: 30px !important;
+    }
+
+    .nav-text {
+        margin-left: 30px;
+    }
+
+    #myNavbar {
+        text-align: center;
+    }
+
+    .btn-light {
+        margin-left: -2px !important;
+    }
+
+    .nav-text {
+        font-size: 21px;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .under-title {
+        font-size: 20px;
+    }
+
+    .resume-button {
+        font-size: 20px !important;
+    }
+
+    .contact-button {
+        font-size: 20px !important;
+    }
+
+    .button-space-1 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .ufo {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .space {
+        background: url(rhi-images/loop.png) repeat-x 0 / 150% auto;
+    }
+
+    .float {
+        width: 200px;
+        height: 200px;
+        margin-top: -230px;
+    }
+
+    .skill-content {
+        margin-bottom: -110px;
+    }
+
+    .sub-title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 
+}
 
 
 @media (min-width:1000px) {

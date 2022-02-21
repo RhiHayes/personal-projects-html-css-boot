@@ -46,6 +46,7 @@
     background-color: #eedbff;
     padding: 10px;
     text-align: center;
+    margin-top: 40px;
 }
 
 
@@ -493,6 +494,19 @@
     padding: 10px;
 }
 
+.hori-img-3 {
+    width: 700px;
+    height: 600px;
+    padding: 10px;
+}
+
+.hori-img-4 {
+    width: 700px;
+    height: 600px;
+    padding-top: 15px;
+    margin-bottom: -100px;
+}
+
 .big-hori-img {
     width: 1000px;
     height: 200px;
@@ -682,10 +696,18 @@ body {
 }
 
 /* Defines big View  */
-@media (min-width: 1200px) {
+@media (min-width: 1400px) and (max-width: 1599px) {
 
     .title-image {
-        margin-left: -200px;
+        margin-left: -300px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+    .title-image {
+        margin-left: -300px;
     }
 
 }
@@ -988,9 +1010,10 @@ body {
 
 }
 
-/* Defines Phone View  */
+/* Defines Tablet View  */
 
 @media (min-width: 620px) and (max-width: 767px) {
+
 
     .nav-text-brand {
         font-size: 30px !important;
@@ -1057,6 +1080,225 @@ body {
         padding-right: 20px;
     }
 
+    .big-hori-img {
+        width: 500px;
+        height: 120px;
+    }
+
+    .big-hori-img-2 {
+        width: 500px;
+        height: 220px;
+    }
+
+    .big-hori-img-3 {
+        height: 200px;
+    }
+
+    .big-hori-img-4 {
+        width: 500px;
+        height: 360px;
+    }
+
+    .hori-img-3 {
+        width: 500px;
+        height: 400px;
+    }
+
+    .hori-img-4 {
+        width: 500px;
+        height: 400px;
+    }
+
+}
+
+@media (min-width: 420px) and (max-width: 620px) {
+
+    .nav-text-brand {
+        font-size: 30px !important;
+    }
+
+    .nav-text {
+        margin-left: 30px;
+    }
+
+    #myNavbar {
+        text-align: center;
+    }
+
+    .btn-light {
+        margin-left: -2px !important;
+    }
+
+    .nav-text {
+        font-size: 21px;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .about-section {
+        padding-bottom: 0px;
+    }
+
+    .about-pic-1 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about-pic-2 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .about-pic-3 {
+        width: 400px;
+        height: 400px;
+    }
+
+    .title-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .under-title {
+        font-size: 20px;
+    }
+
+    .resume-button {
+        font-size: 20px !important;
+    }
+
+    .contact-button {
+        font-size: 20px !important;
+    }
+
+    .button-space-1 {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .ufo {
+        width: 120px !important;
+        height: 120px !important;
+    }
+
+    .space {
+        background: url(rhi-images/loop.png) repeat-x 0 / 200% auto;
+    }
+
+    .float {
+        width: 170px;
+        height: 170px;
+        margin-top: -230px;
+    }
+
+    .skill-content {
+        margin-bottom: -110px;
+    }
+
+    .arrows {
+        font-size: 20px;
+    }
+
+    .res-text {
+        padding-top: 40px;
+    }
+
+    .sub-title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hori-img {
+        width: 400px;
+        height: 200px;
+    }
+
+    .hori-img-2 {
+        width: 400px;
+        height: 200px;
+    }
+
+    .big-hori-img {
+        width: 400px;
+        height: 120px;
+    }
+
+    .big-hori-img-2 {
+        width: 400px;
+        height: 220px;
+    }
+
+    .big-hori-img-3 {
+        height: 200px;
+    }
+
+    .big-hori-img-4 {
+        width: 500px;
+        height: 360px;
+    }
+
+    .hori-img-3 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .hori-img-4 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .mail-image {
+        margin-top: -50px;
+        width: 520px;
+        height: 520px;
+    }
+
+    .circle {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+@media (max-width: 420px) {
+
+    .title {
+        font-size: 60px;
+    }
+
+
+    .hori-img {
+        margin-left: -20px;
+    }
+    .hori-img-2 {
+        margin-left: -30px;
+    }
+
+    .big-hori-img {
+        margin-left: -30px;
+    }
+
+    .big-hori-img-2 {
+        margin-left: -30px;
+    }
+
+    .hori-img-3 {
+        margin-left: -30px;
+    }
+
+    .hori-img-4 {
+        margin-left: -30px;
+    }
+
+    .mail-image {
+        margin-top: -50px;
+        margin-left: -80px;
+        width: 520px;
+        height: 520px;
+    }
 
 }
 

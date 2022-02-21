@@ -1,5 +1,7 @@
 console.log("Test");
 
+
+
 $(window).on('load', function () {
     $('#loader').hide();
     $('#art').hide();
@@ -257,3 +259,23 @@ function popup39() {
     var popup = document.getElementById("myPopup39");
     popup.classList.toggle("show");
 }
+
+function popup40() {
+    var popup = document.getElementById("myPopup40");
+    popup.classList.toggle("show");
+}
+
+function popup41() {
+    var popup = document.getElementById("myPopup41");
+    popup.classList.toggle("show");
+}
+
+
+$(document).ready(function(){
+    $('a[data-bs-toggle="tab"]').on("shown.bs.tab", function(e){
+        var activeTab = $(e.target).text(); // Get the name of active tab
+        var previousTab = $(e.relatedTarget).text(); // Get the name of previous active tab
+        $(".active-tab span").html(activeTab);
+        $(".previous-tab span").html(previousTab);
+    });
+});

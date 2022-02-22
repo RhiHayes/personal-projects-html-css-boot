@@ -1190,7 +1190,7 @@ body {
     .float {
         width: 170px;
         height: 170px;
-        margin-top: -230px;
+        margin-top: -190px;
     }
 
     .skill-content {
@@ -1263,12 +1263,19 @@ body {
 
 }
 
-@media (max-width: 420px) {
+@media (min-width: 420px) and (max-width: 425px) {
 
     .title {
         font-size: 60px;
     }
 
+    .float {
+        margin-top: -220px !important;
+    }
+
+    .res-text {
+        padding-bottom: 40px;
+    }
 
     .hori-img {
         margin-left: -20px;
@@ -1296,6 +1303,168 @@ body {
     .mail-image {
         margin-top: -50px;
         margin-left: -80px;
+        width: 520px;
+        height: 520px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 445px) {
+
+    .title {
+        font-size: 60px;
+    }
+
+    .float {
+        margin-top: -220px !important;
+    }
+
+    .res-text {
+        padding-bottom: 40px;
+    }
+
+    .hori-img {
+        margin-left: -15px;
+    }
+
+    .hori-img-2 {
+        margin-left: -20px;
+    }
+
+    .big-hori-img {
+        margin-left: -20px;
+    }
+
+    .big-hori-img-2 {
+        margin-left: -20px;
+    }
+
+    .hori-img-3 {
+        margin-left: -20px;
+    }
+
+    .hori-img-4 {
+        margin-left: -20px;
+    }
+
+    .mail-image {
+        margin-top: -50px;
+        margin-left: -70px;
+        width: 520px;
+        height: 520px;
+    }
+
+}
+
+@media (min-width: 445px) and (max-width: 460px) {
+
+    .float {
+        margin-top: -215px !important;
+    }
+
+    .res-text {
+        padding-bottom: 40px;
+    }
+
+    .hori-img-2 {
+        margin-left: -12px;
+    }
+
+    .big-hori-img {
+        margin-left: -12px;
+    }
+
+    .big-hori-img-2 {
+        margin-left: -12px;
+    }
+
+    .hori-img-3 {
+        margin-left: -12px;
+    }
+
+    .hori-img-4 {
+        margin-left: -12px;
+    }
+
+    .mail-image {
+        margin-top: -50px;
+        margin-left: -60px;
+        width: 520px;
+        height: 520px;
+    }
+
+}
+
+@media (min-width: 460px) and (max-width: 480px) {
+
+    .float {
+        margin-top: -210px !important;
+    }
+
+    .res-text {
+        padding-bottom: 40px;
+    }
+
+    .mail-image {
+        margin-top: -50px;
+        margin-left: -50px;
+        width: 520px;
+        height: 520px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 500px) {
+
+    .float {
+        margin-top: -210px !important;
+    }
+
+    .res-text {
+        padding-bottom: 40px;
+    }
+
+    .mail-image {
+        margin-top: -50px;
+        margin-left: -40px;
+        width: 520px;
+        height: 520px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 520px) {
+
+    .float {
+        margin-top: -210px !important;
+    }
+
+    .res-text {
+        padding-bottom: 40px;
+    }
+
+    .mail-image {
+        margin-top: -50px;
+        margin-left: -30px;
+        width: 520px;
+        height: 520px;
+    }
+
+}
+
+@media (min-width: 520px) and (max-width: 549px) {
+
+    .float {
+        margin-top: -210px;
+    }
+
+    .res-text {
+        padding-bottom: 40px;
+    }
+
+    .mail-image {
+        margin-top: -50px;
+        margin-left: -20px;
         width: 520px;
         height: 520px;
     }

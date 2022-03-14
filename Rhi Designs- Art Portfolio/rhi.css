@@ -1073,6 +1073,7 @@ body {
 
     .skill-content {
         margin-bottom: -110px;
+        margin-top: -30px;
     }
 
     .sub-title {
@@ -1142,8 +1143,8 @@ body {
     }
 
     .about-pic-1 {
-        width: 400px;
-        height: 400px;
+        width: 380px;
+        height: 380px;
     }
 
     .about-pic-2 {
@@ -1152,8 +1153,8 @@ body {
     }
 
     .about-pic-3 {
-        width: 400px;
-        height: 400px;
+        width: 340px;
+        height: 340px;
     }
 
     .title-image {
@@ -1231,12 +1232,18 @@ body {
     }
 
     .big-hori-img-3 {
+        width: 400px;
         height: 200px;
     }
 
     .big-hori-img-4 {
-        width: 500px;
-        height: 360px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .big-square-img {
+        width: 350px;
+        height: 350px;
     }
 
     .hori-img-3 {
@@ -1258,6 +1265,11 @@ body {
     .circle {
         margin-top: 15px;
         margin-bottom: 10px;
+    }
+
+    .big-verti-img {
+        width: 300px;
+        height: 900px;
     }
 
 
@@ -1297,6 +1309,14 @@ body {
     }
 
     .hori-img-4 {
+        margin-left: -30px;
+    }
+
+    .big-hori-img-3 {
+        margin-left: -30px;
+    }
+
+    .big-hori-img-4 {
         margin-left: -30px;
     }
 
@@ -1347,6 +1367,14 @@ body {
         margin-left: -20px;
     }
 
+    .big-hori-img-3 {
+        margin-left: -20px;
+    }
+
+    .big-hori-img-4 {
+        margin-left: -20px;
+    }
+
     .mail-image {
         margin-top: -50px;
         margin-left: -70px;
@@ -1376,6 +1404,14 @@ body {
 
     .big-hori-img-2 {
         margin-left: -12px;
+    }
+
+    .big-hori-img-3 {
+        margin-left: -13px;
+    }
+
+    .big-hori-img-4 {
+        margin-left: -13px;
     }
 
     .hori-img-3 {

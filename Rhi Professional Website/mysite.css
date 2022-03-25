@@ -72,6 +72,10 @@ body {
     height: 600px;
 }
 
+.mail {
+    text-decoration: none !important;
+}
+
 .my-name {
     text-align: center;
     font-family: 'PT Serif', serif;
@@ -835,3 +839,89 @@ li:nth-child(5) {
     }
 
 }
+
+
+/* MOBILE VIEWS */
+
+@media (min-width: 425px) and (max-width: 500px) {
+
+    .my-title-big {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .my-title {
+        margin-top: 55px;
+        padding: 10px;
+    }
+
+    .jewel-1 {
+        width: 30px;
+        height: 30px;
+    }
+
+    .jewel-2 {
+        width: 30px;
+        height: 30px;
+    }
+
+    #myNavbar {
+        margin-top: -30px;
+    }
+
+    .nav-big {
+        padding: 10px;
+    }
+
+    .little-nav {
+        margin-top: -30px;
+    }
+
+    .about-me-section {
+        margin-top: -10px;
+    }
+
+    .proj-desc {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 15px;
+        margin-left: -95px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 459px) {
+
+    .geo-3 {
+        width: 550px;
+        height: 550px;
+        margin-left: -60px;
+    }
+
+
+}
+
+@media (min-width: 460px) and (max-width: 479px) {
+
+    .geo-3 {
+        width: 550px;
+        height: 550px;
+        margin-left: -40px;
+    }
+
+
+}
+
+@media (min-width: 480px) and (max-width: 500px) {
+
+    .geo-3 {
+        width: 550px;
+        height: 550px;
+        margin-left: -20px;
+    }
+
+
+}
+

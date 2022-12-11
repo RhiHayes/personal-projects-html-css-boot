@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Professional Website</title>
+    <title>Rhiannon's Digital Resume</title>
+
+    <!-- CODE BELOW - FIXES MOBILE RESPONSIVENESS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="mysite.css">
@@ -31,58 +35,60 @@
         <div class="flex-container">
 
             <h1 class="my-name">Rhiannon Hayes</h1>
-            <h3 class="my-title"><img class="jewel-1" src="prof-images/blue-jewel.png">Web Developer<img class="jewel-2" src="prof-images/blue-jewel.png"></h3>
+            <h3 class="my-title-big">Creative Full-Stack Web Developer</h3>
+            <h3 class="my-title"><img class="jewel-1" src="prof-images/blue-jewel.png">I created everything on this website, from the art to the code. <img class="jewel-2" src="prof-images/blue-jewel.png"></h3>
 
         </div>
 
-        <div class="flex-container">
-            <div class="row d-flex justify-content-center">
+        <div class="my-navbar">
+            <div class="flex-container">
+                <div id="myNavbar" class="row d-flex justify-content-center">
 
-                <div class="col-md-2">
-                    <h4 class="nav-big">About Me</h4>
+                    <div class="col-md-2">
+                        <h4 class="nav-big"><a class="link" href="#aboutme">About Me</a></h4>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h4 class="nav-big"><a class="link" href="#projects">Projects</a></h4>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h4 class="nav-big"><a class="link" href="#certifications">Certifications</a></h4>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h4 class="nav-big"><a class="link" href="#skills">Skills</a></h4>
+                    </div>
+
+                    <div class="col-md-2">
+                        <h4 class="nav-big"><a class="link" href="#experience">Experience</a></h4>
+                    </div>
+
                 </div>
-
-                <div class="col-md-2">
-                    <h4 class="nav-big">Skills</h4>
-                </div>
-
-                <div class="col-md-2">
-                    <h4 class="nav-big">Experience</h4>
-                </div>
-
-                <div class="col-md-2">
-                    <h4 class="nav-big">Projects</h4>
-                </div>
-
-                <div class="col-md-2">
-                    <h4 class="nav-big">Certifications</h4>
-                </div>
-
             </div>
         </div>
-
 
         <div class="flex-container little-nav">
             <div class="row d-flex justify-content-center">
 
-                <div class="col-md-2">
-                    <h4 class="nav-small">Resume (PDF)</h4>
+                <div class="col-md-2 small-hidden">
+                    <a class="link" href="https://www.linkedin.com/in/rhiannon-nicole-hayes/overlay/1635509884470/single-media-viewer/" target="_blank"><h4 class="nav-small">Resume (PDF)</h4></a>
                 </div>
 
-                <div class="col-md-2">
-                    <h4 class="nav-small">Art Portfolio</h4>
+                <div class="col-md-2 small-hidden">
+                    <a class="link" href="http://rhidesigns.art/" target="_blank"><h4 class="nav-small">RhiDesigns</h4></a>
                 </div>
 
-                <div class="col-md-2">
-                    <h4 class="nav-small">Email</h4>
+                <div class="col-md-2 col-sm-4">
+                    <a class="mail" href="mailto:rhiannon.nicole.hayes@gmail.com.com"><h4 class="nav-small">Email</h4></a>
                 </div>
 
-                <div class="col-md-2">
-                    <h4 class="nav-small">LinkedIn</h4>
+                <div class="col-md-2 col-sm-4">
+                    <a class="link" href="https://www.linkedin.com/in/rhiannon-hayes-13534a214/" target="_blank"><h4 class="nav-small">LinkedIn</h4></a>
                 </div>
 
-                <div class="col-md-2">
-                    <h4 class="nav-small">Github</h4>
+                <div class="col-md-2 col-sm-4">
+                    <a class="link" href="https://github.com/RhiHayes" target="_blank"><h4 class="nav-small">Github</h4></a>
                 </div>
 
             </div>
@@ -91,7 +97,7 @@
 
     </section>
 
-    <section class="about-me-section">
+    <section id="aboutme" class="about-me-section">
 
         <div class="flex-container">
             <div class="row">
@@ -102,16 +108,15 @@
                     <h4 class="about-heading">About Me</h4>
                     <p class="about-desc">Creative Software Developer with previous UI/UX design
                         experience, passionate about optimizing front end user
-                        experiences. Results driven with an eagerness for continued
-                        learning and growth opportunities. </p>
+                        experiences. Strong background in digital art and design.
+                        Results driven with an eagerness for continued
+                        learning and growth opportunities. Actively searching for a collaborative
+                        environment to shine.
+                    </p>
 
-                    <p class="about-desc-2">Adding some more text here would look
-                        nicer, as well as make the page feel less blank in terms
-                        of the transitions. Adding some more text here would look
-                        nicer, as well as make the page feel less blank in terms
-                        of the transitions. Adding some more text here would look
-                        nicer, as well as make the page feel less blank in terms
-                        of the transitions. </p>
+                    <p class="about-desc-2">For my information regarding my art, please
+                        visit <a class="rhi-designs" href="https://rhidesigns.art/">RhiDesigns.</a></p>
+
                 </div>
                 <div class="col-md-6">
                     <img class="geo-3" src="prof-images/geo-3.png">
@@ -120,205 +125,567 @@
             </div>
         </div>
 
-
     </section>
 
+    <section class="projects-section">
 
-    <section class="tech-skill-section">
-
-        <div class="background-image space"></div>
-
-        <h1 class="skills-title">Technical Skills</h1>
+        <h1 id="projects" class="proj-sec-title">Projects</h1>
 
         <div class="flex-container">
-            <div class="row skills-row">
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/html.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/html.png">HTML</h3>
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="project-box">
+                        <h4 class="proj-title"><img class="project-image" src="prof-images/share-bw.png">Share</h4>
+                        <p class="proj-desc">Share is a social networking and online marketplace that
+                            allows members to lend and borrow items with fellow neighbors. Share users
+                            can list their items, freely adjust daily borrow fees and time limits, and
+                            engage in lending with other users. Users can also leave reviews and message
+                            others directly. My roles in this four person team included being the sole
+                            designer, lead front end developer, and backend support. This full-stack
+                            application was made using HTML, CSS, Bootstrap, JavaScript, MySQL, Java,
+                            SpringBoot, Thymeleaf and multiple APIs. This application is also completely
+                            mobile-responsive with all original assets.</p>
+                        <a href="https://share-project.site/" target="_blank"><button class="btn btn-dark demo-button">Demo (Website)</button></a>
+                        <a href="https://github.com/Hayes-Maldonado-Rodney-White-Capstone/Share" target="_blank"><button class="btn btn-dark git-button">Source Code (Github)</button></a>
+
+                        <br>
+                        <br>
+
+                        <button class="btn btn-dark codeup-btn">Codeup</button>
+
+                    </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/css.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/css.png">CSS</h3>
+                <div class="col-lg-6">
+                    <div class="project-box">
+                        <h4 class="proj-title"><img class="project-image" src="prof-images/book-bw.png">Adlister (Manga Trader)</h4>
+                        <p class="proj-desc">Find, sell and browse all types of manga with Manga Trader. Create your own
+                            account, log in and see what other manga lovers post and share. This full stack application utilizes
+                            a user-centered MySQL database along with servlets and JSPs created using Java. </p>
+                        <!--                        <a href="https://rhidesigns-3.art/" target="_blank"><button class="btn btn-dark demo-button">Demo (Website)</button></a>-->
+                        <a href="https://github.com/Dez-Destiney-Rhiannon-DDR/manga-trader" target="_blank"><button class="btn btn-dark git-button">Source Code (Github)</button></a>
+
+
+                        <br>
+                        <br>
+
+                        <button class="btn btn-dark codeup-btn">Codeup</button>
+
+                    </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/bootstrap.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/bootstrap.png">Bootstrap 4</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/js.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/js.png">Vanilla JavaScript</h3>
-                </div>
-            </div>
-
-            <div class="row skills-row">
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/es6.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/es6.png">JavaScript ES6</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/jquery.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/jquery.png">jQuery</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/java-se.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/java-se.png">Java SE</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/java-ee.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/java-ee.png">Java EE</h3>
-                </div>
-
-            </div>
-
-            <div class="row skills-row">
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/spring.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/spring.png">Spring</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/my-sql.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/my-sql.png">MySQL</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/oop.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/oop.png">Object Oriented Programming</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/tdd.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/tdd.png">Test Driven Development</h3>
-                </div>
             </div>
 
 
+            <div class="row">
 
-            <div class="row skills-row">
+                <div class="col-lg-6">
+                    <div class="project-box">
+                        <h4 class="proj-title"><img class="project-image" src="prof-images/cauldron-bw.png">The Witch's Lair (Console)</h4>
+                        <p class="proj-desc">The Witch's Lair is a console based game utilizing Java and Object-Oriented
+                            Programming. Players have the ability to choose their own class, have special abilities, fight
+                            unique enemies and collect items all while searching this magical world, with the story being
+                            specially tailored to their actions. This was a paired programming side project that was
+                            developed over about a month. My roles included being the co-programmer and creative director.</p>
+                        <!--                        <a href="http://rhidesigns-4.art/" target="_blank"><button class="btn btn-dark demo-button">Demo (Website)</button></a>-->
+                        <a href="https://github.com/hw-text-adventure-game/console-game" target="_blank"><button class="btn btn-dark git-button">Source Code (Github)</button></a>
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/git.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/git.png">Version Control<br>with Git</h3>
+                        <br>
+                        <br>
+
+                        <button class="btn btn-dark codeup-btn">Codeup</button>
+
+                    </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/pair.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/pair.png">Paired<br>Programming</h3>
+
+                <div class="col-lg-6">
+                    <div class="project-box">
+                        <h4 class="proj-title"><img class="project-image" src="prof-images/witch-bw.png">The Witch's Lair (Web Game)</h4>
+                        <p class="proj-desc">An ongoing side project that converts our console-based Java game into a fullstack web
+                            game (see The Witch's Lair Console for more information regarding the game itself). This is a
+                            paired programming project with my partner being the lead programmer and myself being the designer,
+                            bringing custom-made digital assets and handling all website/game styling (HTML, CSS, Bootstrap,
+                            JavaScript).</p>
+                        <!--                        <a href="https://rhidesigns-3.art/" target="_blank"><button class="btn btn-dark demo-button">Demo (Website)</button></a>-->
+                        <a href="https://github.com/RhiHayes/console-game-frontend" target="_blank"><button class="btn btn-dark git-button">Source Code (Github)</button></a>
+
+
+                        <br>
+                        <br>
+
+                        <button class="btn btn-dark codeup-btn">Codeup</button>
+
+                    </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/form.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/form.png">Formstack</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/wix.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/wix.png">WIX</h3>
-                </div>
             </div>
 
 
-            <div class="row skills-row">
+            <div class="row">
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/clip.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/clip.png">Clip Studio Paint</h3>
+                <div class="col-lg-6">
+                    <div class="project-box">
+                        <h4 class="proj-title"><img class="project-image" src="prof-images/movie-bw.png">Movie Project</h4>
+                        <p class="proj-desc">Rate and review movies you’ve seen and track what you want to
+                            watch using the application. Rename movies and add your own description to
+                            personalize your movie list. Lead programmer in this paired programming
+                            project, utilized a prebuilt Rest API for user data along with HTML, CSS,
+                            JavaScript and jQuery to provide CRUD implementation.</p>
+                        <a href="http://rhidesigns-4.art/" target="_blank"><button class="btn btn-dark demo-button">Demo (Website)</button></a>
+                        <a href="https://github.com/Fraser-Hayes-Movie-Project/Movie-Project" target="_blank"><button class="btn btn-dark git-button">Source Code (Github)</button></a>
+
+                        <br>
+                        <br>
+
+                        <button class="btn btn-dark codeup-btn">Codeup</button>
+
+                    </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/sai.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/sai.png">Paint Tool SAI</h3>
+
+                <div class="col-lg-6">
+                    <div class="project-box">
+                        <h4 class="proj-title"><img class="project-image" src="prof-images/weather-bw.png">Weather Project</h4>
+                        <p class="proj-desc">Search current and forecasted weather conveniently by dragging
+                            and dropping a pin on a map, eliminating the need for zip codes/city searches.
+                            View daytime high and lows, humidity and wind conditions and sunrise/sunset
+                            times. Multiple communicating API’s. Solo project using HTML, CSS, Javascript,
+                            Bootstrap.</p>
+                        <a href="https://rhidesigns-3.art/" target="_blank"><button class="btn btn-dark demo-button">Demo (Website)</button></a>
+                        <a href="https://github.com/RhiHayes/codeup-web-exercises" target="_blank"><button class="btn btn-dark git-button">Source Code (Github)</button></a>
+
+
+                        <br>
+                        <br>
+
+                        <button class="btn btn-dark codeup-btn">Codeup</button>
+
+                    </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/harmony.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/harmony.png">Toon Boom<br>Harmony</h3>
+            </div>
+
+            </div>
+
+
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="project-box">
+                        <h4 class="proj-title"><img class="project-image" src="prof-images/rhi-bw.png">Rhi Designs</h4>
+                        <p class="proj-desc">Built a website that showcases my UI/UX design to clients while simultaneously
+                            acting as an art portfolio starting from a wireframe with HTML, CSS, Bootstrap,
+                            JavaScript and jQuery, all original visual elements digitally drawn and
+                            designed.</p>
+                        <a href="http://rhidesigns.art/" target="_blank"><button class="btn btn-dark demo-button">Demo (Website)</button></a>
+                        <a href="https://github.com/RhiHayes/personal-projects-html-css-boot" target="_blank"><button class="btn btn-dark git-button">Source Code (Github)</button></a>
+
+                        <br>
+                        <br>
+
+                        <button class="btn btn-dark work-btn">Work - RhiDesigns</button>
+
+                    </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-                    <img class="icon-hidden" src="prof-images/maya.png"><h3 class="skill-mini-title"><img class="icon" src="prof-images/maya.png">Maya</h3>
+                <div class="col-lg-6">
+                    <div class="project-box">
+                        <h4 class="proj-title"><img class="project-image" src="prof-images/resume-bw.png">Resume Website</h4>
+                        <p class="proj-desc">
+                            Created a page that demonstrates corporate art trends such as geometric
+                            shapes and abstract backgrounds, displaying versatility in composition and
+                            aesthetic choices, all with uniquely designed artwork. Started as a wireframe
+                            and is built using HTML, CSS, Bootstrap and JavaScript.</p>
+                        <button class="btn btn-dark yah-button">You are here!</button>
+                        <a href="https://github.com/RhiHayes/personal-projects-html-css-boot" target="_blank"><button class="btn btn-dark git-button">Source Code (Github)</button></a>
+
+                        <br>
+                        <br>
+
+                        <button class="btn btn-dark personal-btn">Personal</button>
+
+                    </div>
                 </div>
+
+
+            </div>
+
+        </div>
+</div>
+
+<div class="background-image-2 space-2"></div>
+
+</section>
+
+<section class="cert-section">
+
+    <h1 id="certifications" class="cert-sec-title">Certifications</h1>
+
+    <div class="flex-container cert-box">
+
+        <div class="row">
+            <div class="col-lg-6 mini-cert-box">
+
+                <h3 class="cert-title">Certified HTML Developer</h3>
+                <img class="cert-icon" src="prof-images/html-badge.png">
+                <br>
+                <a href="https://pdfhost.io/v/TE1bacqZJ_certifiedhtmldeveloperrhiannonhayes" target="_blank"><button class="btn btn-dark cert-btn-1">See Certification</button></a>
+
+            </div>
+
+            <div class="col-lg-6 mini-cert-box">
+
+                <h3 class="cert-title">Certified CSS Developer</h3>
+                <img class="cert-icon" src="prof-images/css-badge.png">
+                <br>
+                <a href="https://pdfhost.io/v/ogEPU6rUa_certifiedcssdeveloperrhiannonhayes" target="_blank"><button class="btn btn-dark cert-btn-2">See Certification</button></a>
+
             </div>
 
         </div>
 
-    </section>
+        <div class="row">
+            <div class="col-lg-6 mini-cert-box">
 
-    <section class="exposure-section">
-
-        <div class="background-image-2 space-2"></div>
-
-        <h1 class="skills-title-2">Exposure To</h1>
-
-        <div class="flex-container">
-            <div class="row skills-row-2">
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/angular.png">Angular</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/react.png">React</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/react-hooks.png">React Hooks</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/vue.png">Vue</h3>
-                </div>
+                <h3 class="cert-title">Certified JavaScript Developer</h3>
+                <img class="cert-icon" src="prof-images/js-badge.png">
+                <br>
+                <a href="https://pdfhost.io/v/ipqI9nDTd_certifiedjavascriptdeveloperrhiannonhayes" target="_blank"><button class="btn btn-dark cert-btn-3">See Certification</button></a>
 
             </div>
 
+            <div class="col-lg-6 mini-cert-box">
 
-            <div class="row skills-row-2">
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/node.png">Node</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/npm.png">NPM</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/express.png">Express.js</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/ejs.png">EJS</h3>
-                </div>
+                <h3 class="cert-title">Certified Front End Developer</h3>
+                <img class="cert-icon" src="prof-images/frontend-badge.png">
+                <br>
+                <a href="https://pdfhost.io/v/muenHaFFJ_certifiedfrontenddeveloperrhiannonhayes" target="_blank"><button class="btn btn-dark cert-btn-4">See Certification</button></a>
 
             </div>
-
-
-            <div class="row skills-row-2">
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/mongodb.png">MongoDB</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/mongoose.png">Mongoose</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/firebase.png">Firebase</h3>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <h3 class="skill-mini-title-2"><img class="icon-small" src="prof-images/bash.png">Bash Command Line</h3>
-                </div>
-
-            </div>
-
-
 
         </div>
 
 
+    </div>
 
-    </section>
+
+</section>
 
 
+<section class="tech-skill-section">
+
+    <div class="background-image space"></div>
+
+    <h1 id="skills" class="skills-title">Technical Skills</h1>
+
+    <div class="flex-container">
+        <div class="row skills-row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/js.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/js.png">JavaScript</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/es6.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/es6.png">JavaScript ES6</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/react.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/react.png">React</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/angular.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/angular.png">Angular</h3>
+            </div>
+
+        </div>
+
+        <div class="row skills-row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/jquery.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/jquery.png">jQuery</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/html.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/html.png">HTML</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/css.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/css.png">CSS</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/bootstrap.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/bootstrap.png">Bootstrap 4</h3>
+            </div>
+
+        </div>
+
+
+        <div class="row skills-row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/node.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/node.png">Node.js</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/express.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/express.png">Express.js</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/ejs.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/ejs.png">EJS</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/mongodb.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/mongodb.png">MongoDB</h3>
+            </div>
+
+        </div>
+
+        <div class="row skills-row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/mongoose.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/mongoose.png">Mongoose</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/react-hooks.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/react-hooks.png">React Hooks</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/bash.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/bash.png">Bash Command Line</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/slack.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/slack.png">Slack</h3>
+            </div>
+        </div>
+
+
+        <div class="row skills-row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/asana.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/asana.png">Asana</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/zendesk.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/zendesk.png">Zendesk</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/ecom.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/ecom.png">E-Commerce</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <img class="icon-hidden" src="prof-images/npm.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/npm.png">NPM</h3>
+            </div>
+        </div>
+
+
+        <div class="row skills-row">
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/git.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/git.png">VC with Git</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/java-se.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/java-se.png">Java SE</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/java-ee.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/java-ee.png">Java EE</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/spring.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/spring.png">Spring</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row skills-row">
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/my-sql.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/my-sql.png">MySQL</h3>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/thymeleaf.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/thymeleaf.png">Thymeleaf</h3>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/groovy.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/groovy.png">Groovy</h3>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/tdd.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/tdd.png">TDD</h3>
+        </div>
+    </div>
+
+    <div class="row skills-row">
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/oop.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/oop.png">OOP</h3>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/pair.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/pair.png">Paired Programming</h3>
+        </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/clip.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/clip.png">Clip Studio Paint</h3>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/sai.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/sai.png">Paint Tool SAI</h3>
+            </div>
+    </div>
+
+    <div class="row skills-row">
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/harmony.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/harmony.png">Toon Boom</h3>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/maya.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/maya.png">Maya</h3>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+            <img class="icon-hidden" src="prof-images/form.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/form.png">Formstack</h3>
+        </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6 skills-item">
+                <img class="icon-hidden" src="prof-images/clickup.png"><h3 class="skill-mini-title"><img class="icon grow" src="prof-images/clickup.png">Clickup</h3>
+            </div>
+    </div>
 
 </div>
 
+</section>
+
+<section class="experience-section">
+
+    <div class="flex-container exp-container-img">
+
+        <h1 id="experience" class="exp-title">Experience</h1>
+
+        <div class="row exp-row">
+            <div class="col-md-10 col-lg-6">
+
+                <h3 class="job-title">Searchspring</h3>
+                <h5 class="job-desc">Technical Support Engineer / Apr 2022 - Present</h5>
+                <ul>
+                    <li>Manage and manipulate data feeds coming from multiple APIs and eCommerce platforms 
+                        using Apache Groovy; work within Shopify, BigCommerce, Magento, Netsuite, Miva, 
+                        Commerce V3, WooCommerce and 3DCart to standardize data in the back-end to improve 
+                        frontend persistence
+                    </li>
+
+                    <li>Oversee the integration of 4-Tell with Searchspring’s system to maximize functionality of 
+                        migration process utilizing Typescript, MobX, JSS, and Yarn and retain 4-Tell’s customer base 
+                        by implementing Searchpring’s client-facing model
+
+                    </li>
+
+                    <li>Liaise with external stakeholders, multiple Fortune 500 clients and developer teams via Zendesk, 
+                        providing them with detailed technical instructions and solutions to increase growth; 
+                        increased client satisfaction rate to 100%
+
+                    </li>
+
+                    <li>Develop functionality, code frontend changes, optimize efficiency, debug errors and implement customized 
+                        solutions and workarounds using HTML, CSS, SASS, JavaScript, jQuery, Angular and React to improve 
+                        user-experience and increase customer retention for our clients 
+                    </li>
+
+                    <li>Document resolutions to add to internal and external knowledge bases; assist in training and onboarding new 
+                        Technical Support Engineers 
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="row exp-row">
+            <div class="col-md-10 col-lg-6">
+
+                <h3 class="job-title">Texas Think</h3>
+                <h5 class="job-desc">Web Manager & Designer / Apr 2020 - Dec 2021</h5>
+                <ul>
+                    <li>Frontend Webmaster for websites for Texas Workforce Solutions (TWFS) Middle Rio Grande Valley & 
+                        Golden Crescent, Middle Rio Grande Development Council 
+                    </li>
+
+                    <li>Drafted and designed a website congruent with TWFS sister sites which allowed over 1,000 job seekers and businesses to 
+                        connect, and find various specialized services
+                    </li>
+
+                    <li>Improved UI/UX across all websites TFWS
+
+                    </li>
+
+                    <li>Leveraged meetings to incorporate client feedback to build an information based 
+                        non-profit website 
+
+                    </li>
+
+                    <li>Created content and graphics to update sites weekly; tasks included setting up forms using Formstack, banners, 
+                        flyers, forms, and contact information 
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="row exp-row">
+            <div class="col-md-10 col-lg-6">
+
+                <h3 class="job-title">RhiDesigns</h3>
+                <h5 class="job-desc">Founder & CEO / Mar 2017 - Dec 2021</h5>
+
+                <ul>
+
+                    <li>Managed all aspects of design layout and final production assets using design trends and 
+                        principles relating to UI/UX to provide industry-solutions to all clients 
+                    </li>
+
+                    <li>Designed various front-end elements through multiple software development life cycles such as logo/graphic designs, 
+                        infographics, marketing ads, website assets and icons, wireframes, mockups, database designs, 
+                        user stories, feature lists and project management boards
+                    </li>
+
+                    <li>Prepared illustrations and rough sketches of materials, discussing with clients and revising as 
+                        necessary; demonstrating strength from stylized to realistic using expert skills in Clip 
+                        Studio Paint</li>
+
+                        <li>Planned, developed, tested, deployed and updated a Java-based console game in a collaborative environment as the co-developer, 
+                            creative director and lead artist</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
 <!-- Bootstrap Scripts -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 
 <!-- My Script -->
 <script src="mysite.js"></script>
